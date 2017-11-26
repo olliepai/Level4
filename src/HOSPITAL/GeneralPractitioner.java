@@ -1,7 +1,11 @@
 package HOSPITAL;
 
-public class GeneralPractitioner  {
+public class GeneralPractitioner extends Doctor {
 	GeneralPractitioner() {
 		
+	}
+	
+	public boolean makesHouseCalls() {
+		return true;
 	}
 }
